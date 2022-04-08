@@ -5,6 +5,7 @@ body{
 
 #container{
   display: flex;
+  flex-wrap: wrap;
   width: 80%;
   margin: 0 auto;
 }
@@ -21,7 +22,6 @@ body{
 
 .box-three{
   background-color: blue;
-  color: white;
 }
 
 .box-five{
@@ -30,4 +30,5 @@ body{
 
 .box-union{
   background-color: white;
+  color: black;
 }
