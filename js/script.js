@@ -1,5 +1,5 @@
 /*
-  a.  Scrivere un programma che stampi i numeri da 1 a 100,
+  a.  Scrivere un programma che stampi i numeri da 1 a 100 dentro un container,
   b.  Per i multipli di 3 stampare Fizz,
   c.  Per i multipli di 5 stampare Buzz,
   d.  Per i multi di 3 e 5 stampare FizzBuzz,
