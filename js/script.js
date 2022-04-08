@@ -18,24 +18,25 @@ const limit = 100;
 for (let i = 1; i <= limit; i++){
   const defaultBox = document.createElement("div");
   defaultBox.className = "box";
-  defaultBox.append(i)
+  defaultBox.append(i);
 
   //multiplo di 3
   if (i % 3 === 0){
-    defaultBox.classList.add("box-three")
-    console.log(i);
+    defaultBox.classList.add("box-three");
+    defaultBox.textContent = 'Fizz';
   }
 
   //multiplo di 5
   if (i % 5 === 0){
-    defaultBox.classList.add("box-five")
-    console.log(i);
+    defaultBox.classList.add("box-five");
+    defaultBox.textContent = 'Buzz';
   }
 
   //multiplo di 3 e 5
   if (i % 3 === 0 && i % 5 === 0){
-    defaultBox.classList.add("box-union")
+    defaultBox.classList.add("box-union");
+    defaultBox.textContent = 'FizzBuzz';
   }
   
-  container.append(defaultBox)
+  container.append(defaultBox);
 }
